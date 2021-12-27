@@ -1,0 +1,576 @@
+#map .city {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #de2022;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.city-modal {
+    position: absolute;
+    background-color: #FFF;
+    padding: 14px 17px;
+    color: #233848;
+    font-family: 'Houschka Pro';
+    font-size: 20px;
+    line-height: 38px;
+    z-index: 2;
+    font-weight: bold;
+}
+.city-moscow {
+    position: absolute;
+    z-index: 2;
+}
+.city-modal::before {
+    content: '';
+    position: absolute;
+    background-color: #de2022;
+    color: #de2022;
+    font-family: 'Houschka Pro';
+    font-size: 1px;
+    line-height: 1px;
+    z-index: 3;
+    width: 22px;
+    height: 1px;
+}
+.city-modal::after {
+    content: '';
+    position: absolute;
+    background: url('../img/mark.png') 0 0 no-repeat;
+    z-index: 3;
+    width: 29px;
+    height: 28px;
+    top: -14px;
+    left: -14px;
+    cursor: pointer;
+}
+.city[city="Абинск"] {
+    top: 64.7%;
+    left: 3%;
+}
+.city[city="Александров"] {
+    top: 47%;
+    left: 15%;
+}
+.city[city="Ангарск"] {
+    top: 86.9%;
+    left: 59%;
+}
+.city[city="Апрелевка"] {
+    top: 46%;
+    left: 13.2%;
+}
+.city[city="Архангельск"] {
+    top: 34%;
+    left: 24%;
+}
+.city[city="Астрахань"] {
+    top: 74.5%;
+    left: 11.1%;
+}
+.city[city="Барнаул"] {
+    top: 84%;
+    left: 43%;
+}
+.city[city="Благовещенск"] {
+    top: 84%;
+    left: 79.3%;
+}
+.city[city="Братск"] {
+    top: 79%;
+    left: 56.5%;
+}
+.city[city="Брянск"] {
+    top: 47%;
+    left: 9.3%;
+}
+.city[city="Владивосток"] {
+    top: 96%;
+    left: 86.8%;
+}
+.city[city="Владикавказ"] {
+    top: 77%;
+    left: 5.5%;
+}
+.city[city="Владимир"] {
+    top: 49%;
+    left: 15.6%;
+}
+.city[city="Волгоград"] {
+    top: 66.4%;
+    left: 11.8%;
+}
+.city[city="Волжский"] {
+    top: 65.8%;
+    left: 12.2%;
+}
+.city[city="Вологда"] {
+    top: 43.2%;
+    left: 18.5%;
+}
+.city[city="Гороховец"] {
+    top: 50.2%;
+    left: 16.2%;
+}
+.city[city="Грозный"] {
+    top: 78%;
+    left: 6.8%;
+}
+.city[city="Гуково"] {
+    top: 62.4%;
+    left: 7.3%;
+}
+.city[city="Дербент"] {
+    top: 83%;
+    left: 7.3%;
+}
+.city[city="Димитровград"] {
+    top: 61%;
+    left: 18.6%;
+}
+.city[city="Якотское"] {
+    top: 45%;
+    left: 14.4%;
+}
+.city[city="Долгопрудный"] {
+    top: 45.3%;
+    left: 13.8%;
+}
+.city[city="Домодедово"] {
+    top: 47%;
+    left: 13.7%;
+}
+.city[city="Екатеринбург"] {
+    top: 64.5%;
+    left: 27.8%;
+}
+.city[city="Ефремов"] {
+    top: 51.1%;
+    left: 11.4%;
+}
+.city[city="Железногорск"] {
+    top: 49.2%;
+    left: 8.9%;
+}
+.city[city="Иваново"] {
+    top: 47.9%;
+    left: 16.5%;
+}
+.city[city="Иркутск"] {
+    top: 88%;
+    left: 59.2%;
+}
+.city[city="р. п. Маркова"] {
+    top: 88.2%;
+    left: 59.2%;
+}
+.city[city="Казань"] {
+    top: 57.5%;
+    left: 19.8%;
+}
+.city[city="Калязин"] {
+    top: 44.5%;
+    left: 15.2%;
+}
+.city[city="Канск"] {
+    top: 79.5%;
+    left: 52.8%;
+}
+.city[city="Кисловодск"] {
+    top: 72.8%;
+    left: 5.2%;
+}
+.city[city="Кола"] {
+    top: 21.9%;
+    left: 25.9%;
+}
+.city[city="д.Зарудня"] {
+    top: 49.3%;
+    left: 13.8%;
+}
+.city[city="Копейск"] {
+    top: 69.3%;
+    left: 27.3%;
+}
+.city[city="Королев"] {
+    top: 46.4%;
+    left: 14.2%;
+}
+.city[city="Корсаков"] {
+    top: 78.4%;
+    left: 93.1%;
+}
+.city[city="г.п.Нахабиноэтаж"] {
+    top: 46%;
+    left: 13.6%;
+}
+.city[city="д. Путилково"] {
+    top: 46.4%;
+    left: 13.6%;
+}
+.city[city="Краснодар"] {
+    top: 64.5%;
+    left: 3.5%;
+}
+.city[city="Краснокаменск"] {
+    top: 89.4%;
+    left: 71.3%;
+}
+.city[city="Красноярск"] {
+    top: 77.4%;
+    left: 49.5%;
+}
+.city[city="Кстово"] {
+    top: 52.4%;
+    left: 16.5%;
+}
+.city[city="с.Молоково"] {
+    top: 47.7%;
+    left: 13.8%;
+}
+.city[city="Липецк"] {
+    top: 53.7%;
+    left: 11.4%;
+}
+.city[city="с.Косыревка"] {
+    top: 53.6%;
+    left: 11.3%;
+}
+.city[city="Тверь"] {
+    top: 43%;
+    left: 14.3%;
+}
+.city[city="Тольятти"] {
+    top: 62.2%;
+    left: 18.0%;
+}
+.city[city="Томск"] {
+    top: 76.8%;
+    left: 44.5%;
+}
+.city[city="Туймазы"] {
+    top: 64%;
+    left: 22.2%;
+}
+.city[city="Тулун"] {
+    top: 84%;
+    left: 55.6%;
+}
+.city[city="Тюмень"] {
+    top: 67%;
+    left: 31.5%;
+}
+.city[city="р.п. Ишеевка"] {
+    top: 59.6%;
+    left: 18.2%;
+}
+.city[city="Урай"] {
+    top: 60.6%;
+    left: 32.5%;
+}
+.city[city="Уссурийск"] {
+    top: 95.6%;
+    left: 86.4%;
+}
+.city[city="Уфа"] {
+    top: 66.6%;
+    left: 23.2%;
+}
+.city[city="Хабаровск"] {
+    top: 81.6%;
+    left: 86.2%;
+}
+.city[city="Химки"] {
+    top: 46.6%;
+    left: 13.5%;
+}
+.city[city="Чебоксары"] {
+    top: 55.6%;
+    left: 19.2%;
+}
+.city[city="Челябинск"] {
+    top: 69.4%;
+    left: 27.0%;
+}
+.city[city="р.п. Свердловский"] {
+    top: 47.2%;
+    left: 14%;
+}
+.city[city="Щербинка"] {
+    top: 46.9%;
+    left: 13.5%;
+}
+.city[city="Электросталь"] {
+    top: 47.9%;
+    left: 14.1%;
+}
+.city[city="Южно-Сахалинск"] {
+    top: 77.9%;
+    left: 92.7%;
+}
+.city[city="Якутск"] {
+    top: 54.9%;
+    left: 73.7%;
+}
+.city[city="Ярославль"] {
+    top: 45.4%;
+    left: 16.4%;
+}
+.city[city="п.Дубки"] {
+    top: 45.4%;
+    left: 16.2%;
+}
+.city[city="Лосино-Петровский"] {
+    top: 46.4%;
+    left: 14.3%;
+}
+.city[city="Люберцы"] {
+    top: 47.4%;
+    left: 13.6%;
+}
+.city[city="Магнитогорск"] {
+    top: 71.4%;
+    left: 24.3%;
+}
+.city[city="Малоярославец"] {
+    top: 46.4%;
+    left: 12.3%;
+}
+.city[city="Микунь"] {
+    top: 45.7%;
+    left: 26.2%;
+}
+.city[city="Михайлов"] {
+    top: 50.9%;
+    left: 13.0%;
+}
+.city[city="Михайловск"] {
+    top: 69.5%;
+    left: 5.8%;
+}
+.city[city="Можайск"] {
+    top: 45.5%;
+    left: 12.8%;
+}
+.city[city="Морозовск"] {
+    top: 64.1%;
+    left: 8.2%;
+}
+#map .city[city="Москва"] {
+    top: 43.7%;
+    left: 12.3%;
+    background: url(../img/moscow.png) 0 0 no-repeat;
+    width: 56px;
+    height: 74px;
+    border-radius: 0;
+    background-color: inherit;
+    background-size: cover;
+}
+.city[city="Мурманск"] {
+    top: 22.1%;
+    left: 25.9%;
+}
+.city[city="Мытищи"] {
+    top: 47.0%;
+    left: 13.7%;
+}
+.city[city="Нижневартовск"] {
+    top: 63.7%;
+    left: 40.0%;
+}
+.city[city="Нижнекамск"] {
+    top: 59.7%;
+    left: 21.5%;
+}
+.city[city="Нижний Новгород"] {
+    top: 52.2%;
+    left: 16.5%;
+}
+.city[city="Новокузнецк"] {
+    top: 84.2%;
+    left: 45.9%;
+}
+.city[city="Новороссийск"] {
+    top: 64.4%;
+    left: 2.7%;
+}
+.city[city="Новосибирск"] {
+    top: 80.2%;
+    left: 42.7%;
+}
+.city[city="Новошахтинск"] {
+    top: 63.2%;
+    left: 7.4%;
+}
+.city[city="Ногинск"] {
+    top: 47.4%;
+    left: 14.1%;
+}
+.city[city="Нурлат"] {
+    top: 61.4%;
+    left: 20%;
+}
+.city[city="Обнинск"] {
+    top: 46.7%;
+    left: 12.4%;
+}
+.city[city="Одинцово"] {
+    top: 46.5%;
+    left: 13.4%;
+}
+.city[city="Оренбург"] {
+    top: 69.5%;
+    left: 20.4%;
+}
+.city[city="с.Паноморевка"] {
+    top: 67.5%;
+    left: 20.8%;
+}
+.city[city="Пенза"] {
+    top: 58.3%;
+    left: 15.3%;
+}
+.city[city="Пермь"] {
+    top: 59.3%;
+    left: 26.1%;
+}
+.city[city="Подольск"] {
+    top: 47.4%;
+    left: 13.3%;
+}
+.city[city="Пушкино"] {
+    top: 45.9%;
+    left: 13.8%;
+}
+.city[city="Пыть-Ях"] {
+    top: 63.9%;
+    left: 38.3%;
+}
+.city[city="Евпатория"] {
+    top: 59.4%;
+    left: 1.3%;
+}
+.city[city="Реутов"] {
+    top: 47.2%;
+    left: 13.6%;
+}
+.city[city="г.п. Тучково"] {
+    top: 45.2%;
+    left: 13.1%;
+}
+.city[city="Рязань"] {
+    top: 50.5%;
+    left: 13.5%;
+}
+.city[city="Самара"] {
+    top: 63.5%;
+    left: 18.5%;
+}
+.city[city="Санкт-Петербург"] {
+    top: 32.9%;
+    left: 14.8%;
+}
+.city[city="Саратов"] {
+    top: 62.9%;
+    left: 14.8%;
+}
+.city[city="р.п. Новые Бурасы"] {
+    top: 61.9%;
+    left: 15.2%;
+}
+.city[city="Севастополь"] {
+    top: 59.9%;
+    left: 1%;
+}
+.city[city="Северобайкальск"] {
+    top: 78.9%;
+    left: 63%;
+}
+.city[city="Сергиев-Посад"] {
+    top: 45.9%;
+    left: 14.4%;
+}
+.city[city="Смоленск"] {
+    top: 42.4%;
+    left: 10.2%;
+}
+.city[city="д. Голубое"] {
+    top: 46.4%;
+    left: 13.6%;
+}
+.city[city="Сорочинск"] {
+    top: 67.6%;
+    left: 19.8%;
+}
+.city[city="Ставрополь"] {
+    top: 71%;
+    left: 5.5%;
+}
+.city[city="Старый Оскол"] {
+    top: 54.3%;
+    left: 9.2%;
+}
+.city[city="Стерлитамак"] {
+    top: 67.3%;
+    left: 22.6%;
+}
+.city[city="Сургут"] {
+    top: 62.3%;
+    left: 38.6%;
+}
+.city[city="Таганрог"] {
+    top: 62%;
+    left: 5.7%;
+}
+.city[city="д. Андрейково"] {
+    top: 43.4%;
+    left: 14.0%;
+}
+.city[city="Ульяновск"] {
+    top: 59.9%;
+    left: 18.2%;
+}
+.city[city="Тула"] {
+    top: 49.2%;
+    left: 12.1%;
+}
+.city[city="Сыктывкар"] {
+    top: 47.9%;
+    left: 26%;
+}
+.city[city="Калуга"] {
+    top: 46.9%;
+    left: 11.8%;
+}
+.city[city="Ростов-на-Дону"] {
+    top: 63%;
+    left: 6%;
+}
+.city[city="Республика Крым"] {
+    top: 60.5%;
+    left: 1.4%;
+}
+.city[city="Ханты-Мансийск"] {
+    top: 60.5%;
+    left: 35%;
+}
+@media screen and (max-width: 1200px) {
+    #map .city {
+        display: none;
+    }
+    #map .city.million {
+        display: block;
+        width: 5px;
+        height: 5px;
+    }
+    #map .city.million[city="Москва"] {
+        width: 28px;
+        height: 37px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #map .city.million {
+        width: 3px;
+        height: 3px;
+    }
+}

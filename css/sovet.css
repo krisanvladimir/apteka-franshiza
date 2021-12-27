@@ -1,0 +1,356 @@
+﻿/**Video**/
+.btn-show-video {
+    position: absolute;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    margin-top: -40px;
+    z-index: 10;
+}
+
+.box-viewer__tur-title.block_title {
+    color: #fff;
+    z-index: 10;
+}
+
+#popup-video-preview.modal__form {
+    width: 100%;
+    padding: 0;
+    max-width: 60%;
+}
+
+#popup-video-preview.modal__form .mfp-close {
+    color: #fff;
+}
+
+.thumb-wrap {
+    position: relative;
+    padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+    height: 0;
+    overflow: hidden;
+}
+
+.thumb-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    outline-width: 0;
+}
+
+@media (max-width: 600px) {
+    .box-viewer__tur-title.block_title {
+        left: 12px;
+        top: 28px;
+    }
+
+    .btn-show-video {
+        top: 50%;
+        left: 50%;
+        margin-left: -100px;
+        width: 200px;
+        margin-top: -10px;
+    }
+
+    #popup-video-preview.modal__form {
+        width: 100%;
+        padding: 0;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    .row-sovet.arrow-top {
+        display: none;
+    }
+}
+
+/**кнопка блок с пакетами**/
+
+.box-tariff-holder {
+    padding: 42px;
+    margin: auto;
+    width: 380px;
+}
+
+.box-tariff__title {
+    color: #233848;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 0;
+    letter-spacing: 0.05em;
+}
+
+.box-col-parent {
+    flex: 1 0 410px;
+    padding: 0 30px 30px 0;
+}
+
+.box-tariff-col {
+    background: #F5F7FB;
+    border: 6px solid #EC1929;
+    box-sizing: border-box;
+}
+
+.box-tariff-description {
+    margin-bottom: 33px;
+}
+
+.box-tariff-head {
+    text-align: center;
+    background: #EC1929;
+}
+
+.box-tariff-head p {
+    color: #fff;
+    font-family: Houschka Pro;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 74px;
+    text-transform: uppercase;
+}
+
+
+.box-tariff-description p {
+    font-family: Houschka Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #233948;
+    opacity: 0.5;
+}
+
+span.box-tariff-fin-title {
+    font-family: Houschka Pro;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #233948;
+    text-transform: uppercase;
+}
+
+.box-tariff-fin p {
+    padding-top: 18px;
+    font-family: Houschka Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ec1929;
+}
+
+span.box-tariff-label {
+    font-family: Houschka Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #233948;
+}
+
+p.box-tariff-invest-label {
+    font-family: Houschka Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    letter-spacing: 0.01em;
+    color: #233948;
+    opacity: 0.5;
+    margin-top: 29px;
+}
+
+p.box-tariff-invest-cost {
+    font-family: Houschka Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #EC1929;
+}
+
+.box-tariff-btns {
+    margin-top: 40px;
+}
+
+.box-tariff-btns .btn {
+    width: 100%;
+}
+
+
+.box-tariffs__container {
+    max-width: 1668px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box-tariffs__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0 0;
+}
+
+@media (max-width: 500px) {
+    .box-tariff-holder {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .box-col-parent {
+        padding: 0 0 20px 0;
+    }
+
+    .span.box-tariff-label {
+        font-size: 16px;
+    }
+
+    .box-tariff-fin p {
+        font-size: 13px;
+    }
+
+    p.box-tariff-invest-cost {
+        font-size: 42px;
+    }
+}
+
+.box-viewer__tur {
+    background-image: url("../img/preview_video.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#footer {
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+.reviews {
+    margin-left: 36px;
+    margin-right: 10px;
+}
+
+
+.price-description {
+    font-family: Houschka Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #233948;
+    opacity: 0.5;
+}
+
+
+@media (max-width: 1330px) {
+    .row-holder-price-description {
+        display: none;
+    }
+
+    .holder-price-description {
+        margin-top: 15px;
+    }
+
+    .holder-price-description .price-description {
+        font-size: 14px;
+    }
+
+}
+
+
+@media (min-width: 1330px) {
+    .holder-price-description {
+        display: none;
+    }
+
+    .row-holder-price-description {
+        display: block;
+    }
+}
+
+
+.sym-ruble {
+    font-family: 'PT Sans', serif;
+    display: contents;
+}
+
+#footer {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.tariff-arrow {
+    display: block;
+    position: relative;
+    height: 50px;
+}
+
+.tariff-arrow-next {
+    background: url(../img/icon/slider-right.svg) center center no-repeat;
+    background-size: 72px 162px;
+}
+
+.tariff-arrow-prev {
+    background: url(../img/icon/slider-left3.svg) center center no-repeat;
+    background-size: 72px 162px;
+}
+
+
+.row-sovet:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sovet-column {
+    float: left;
+}
+
+.arrow-top {
+    padding-top: 30px;
+}
+
+/* Set width length for the left, right and middle columns */
+.sovet-left {
+    width: 20%;
+}
+
+.sovet-middle {
+    width: 60%;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.sovet-right {
+    width: 20%;
+}
+
+
+@media screen and (max-width: 479px) {
+    p {
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0;
+    }
+}

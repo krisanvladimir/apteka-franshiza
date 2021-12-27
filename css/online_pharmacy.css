@@ -1,0 +1,340 @@
+.hidden {
+    display: none !important;
+}
+@media (max-width: 767px) {
+    .hidden-xs {
+        display: none !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .hidden-sm {
+        display: none !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hidden-md {
+        display: none !important;
+    }
+}
+@media (min-width: 1200px) {
+    .hidden-lg {
+        display: none !important;
+    }
+}
+#online_pharmacy {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 120px;
+    padding-top: 20px;
+    overflow-x: hidden;
+    background-color: #d13c35;
+}
+.online_pharmacy {
+    max-width: 1570px;
+    padding: 120px 0 0 130px;
+    margin: 0 auto;
+}
+.online_pharmacy_img {
+    position: absolute;
+    top: 135px;
+    right: 0;
+    bottom: 0;
+    width: 1235px;
+    transform: translateX(40%);
+}
+.online_pharmacy__title {
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    float: left;
+}
+.online_pharmacy__title .title_2 {
+    font-size: 50px;
+    letter-spacing: 0.05em;
+}
+.online_pharmacy__title-desc {
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 0;
+    margin-bottom: 12px;
+    width: 720px;
+    float: left;
+}
+.online_pharmacy__title-desc a {
+    color: #ffdbad;
+    text-decoration: none;
+    border-bottom: 1px solid #ffdbad;
+}
+.online_pharmacy_app {
+    text-transform: uppercase;
+    width: 280px;
+    float: left;
+    margin: 10px 50px 22px 0;
+}
+.online_pharmacy_benefits {
+    width: 720px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.online_pharmacy_benefit__card {
+    position: relative;
+    width: 45%;
+    min-height: 92px;
+    padding: 0 0 10px 50px;
+}
+@media screen and (max-width: 1280px) {
+    .online_pharmacy_benefit__card {
+        width: 100%;
+    }
+}
+.online_pharmacy_benefit__numb-wrap {
+    position: absolute;
+    transform: translateX(-100%);
+    left: 0px;
+    top: 0px;
+}
+.online_pharmacy_benefit__numb {
+    transform: rotate(-90deg);
+    transform-origin: right top;
+    text-align: right;
+    color: #233848;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.online_pharmacy_benefit__numb span{
+    font-weight: 700;
+}
+.online_pharmacy_benefit__text {
+    color: #ffffff;
+    padding-right: 120px;
+    letter-spacing: 0.3px;
+}
+/*.online_pharmacy_benefits.online_pharmacy__mobile_2{
+    display: block;
+}*/
+/*.online_pharmacy_benefits.online_pharmacy__mobile_2 .online_pharmacy_benefit__card{
+    height: auto;
+    min-height: auto;
+    margin: 0 0 15px;
+    padding: 0;
+}*/
+.online_pharmacy_benefits.online_pharmacy__mobile_2 .online_pharmacy_benefit__text span{
+    color: #233848;
+    font-weight: bold;
+}
+.online_pharmacy__separator{
+    float: left;
+    border-bottom: solid 1px #ffffff;
+    margin: 38px 0 90px;
+    width: 52%;
+}
+.online_pharmacy__mobile{
+    justify-content: flex-start;
+}
+.online_pharmacy__bottom {
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 0.7;
+    letter-spacing: 0.05em;
+    margin-bottom: 48px;
+    text-align: center;
+}
+.online_pharmacy__vertical-wrap{
+    position: relative;
+    top: 10px;
+    left: -40px;
+    clear: both;
+    width: 100%!important;
+    color: #233848;
+}
+.online_pharmacy__vertical{
+    transform: rotate(90deg) scale(-1, -1) translateX(-100%);
+    transform-origin: left bottom;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    display: inline-block;
+}
+@media (min-width: 1501px) {
+    .online_pharmacy__title-desc {
+        width: 51%;
+    }
+    .online_pharmacy_benefits {
+        width: 51%;
+    }
+    .online_pharmacy_img {
+        width: 1235px;
+    }
+}
+@media (min-width: 1920px) {
+    .online_pharmacy__title-desc {
+        width: 65%;
+    }
+    .online_pharmacy_benefits {
+        width: 60%;
+    }
+}
+@media (max-width: 1500px) {
+    #online_pharmacy {
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 1250px) {
+    #online_pharmacy {
+        /*padding-bottom: 50px;*/
+        /*margin: 50px auto 50px;*/
+        /*padding-top: 120px;*/
+    }
+}
+@media (max-width: 1500px) {
+    .online_pharmacy_img {
+        width: 1010px;
+    }
+}
+@media (max-width: 1350px) {
+    .online_pharmacy_img {
+        width: 750px;
+    }
+}
+@media (max-width: 1200px) {
+    .online_pharmacy_img {
+        width: 750px;
+    }
+}
+@media (max-width: 1080px) {
+    .online_pharmacy_img {
+        width: 500px;
+        top: 190px;
+    }
+}
+@media (max-width: 1350px) {
+    .online_pharmacy__mobile_2 {
+        width: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    .online_pharmacy__mobile {
+        width: 100%;
+    }
+}
+@media (max-width: 1120px) {
+    .online_pharmacy_benefits, .online_pharmacy__title-desc {
+        width: 60%;
+    }
+    .online_pharmacy_benefit__numb {
+        font-size: 22px;
+    }
+    .online_pharmacy_benefit__text {
+        padding: 0 20px 0 0;
+    }
+    .online_pharmacy__mobile, .online_pharmacy__mobile_2 {
+        width: 100%;
+    }
+}
+@media (max-width: 1080px) {
+    .online_pharmacy__vertical-wrap{display: none;}
+}
+@media (max-width: 830px) {
+    #online_pharmacy {
+        padding-bottom: 50px;
+    }
+    .online_pharmacy__title {
+        margin-bottom: 60px;
+    }
+    .online_pharmacy_benefits, .online_pharmacy__title-desc  {
+        width: 60%;
+    }
+    .online_pharmacy__mobile, .online_pharmacy__mobile_2 {
+        width: 100%;
+    }
+    .online_pharmacy_benefit__text {
+        padding: 0 20px 0 0;
+    }
+    .online_pharmacy__title-desc {
+        font-size: 21px;
+    }
+}
+@media (max-width: 767px) {
+    #online_pharmacy {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .online_pharmacy {
+        padding: 0 15px;
+    }
+    .online_pharmacy__title {
+        margin-bottom: 510px;
+        text-align: center;
+        float: none;
+    }
+    .online_pharmacy__title .title_2 {
+        font-size: 18px;
+    }
+    .online_pharmacy__title-desc {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        line-height: 1.2;
+        float: left;
+        width: 100%;
+    }
+    .online_pharmacy_benefits {
+        width: 100%;
+    }
+    .online_pharmacy_benefit__card {
+        /*float: none;*/
+        width: 100%;
+        /*margin-bottom: 40px;*/
+        /*min-height: 50px;*/
+    }
+    .online_pharmacy_benefit__numb-wrap {
+        left: 0px;
+    }
+    .online_pharmacy_benefit__text {
+        padding-right: 50px;
+    }
+    .online_pharmacy_benefits.online_pharmacy__mobile_2 .online_pharmacy_benefit__text {
+        padding-left: 0;
+    }
+    .online_pharmacy_app {
+        margin-bottom: 30px;
+    }
+    .online_pharmacy_img {
+        top: 15%;
+        right: calc(50% - 225px);
+        transform: translateX(0%);
+        width: 450px;
+    }
+    .online_pharmacy__separator{
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .online_pharmacy__title {
+        margin-bottom: 300px;
+    }
+    .online_pharmacy_img {
+        top: 8.5%;
+        right: calc(50% - 150px);
+        width: 300px;
+    }
+    .online_pharmacy_benefits{
+        display: block;
+    }
+}
+@media (max-width: 320px) {
+    .online_pharmacy_img {
+        top: 10%;
+    }
+}

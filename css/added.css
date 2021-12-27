@@ -1,0 +1,96 @@
+.footer__header {
+    font-size: 50px;
+    color: #ee1c24;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-weight: 900;
+    margin: 0 0 -90px 0;
+    padding-top: 20px;
+}
+
+.footer__contacts .fa {
+    font-size: 28px;
+    margin-right: 12px;
+}
+
+.footer__contacts .fa-vk:hover {
+    color: #4a76a8;
+}
+
+.footer__contacts .fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.footer__contacts .fa-instagram:hover {
+    color: #d83377;
+}
+
+.footer__contacts .fa-facebook:hover {
+    color: #4267b2;
+}
+
+.discount {
+    position: fixed;
+    top: 80px;
+    left: calc(50% - 125px);
+}
+.discount img{
+    width: 250px;
+}
+.disclamer_text {
+    clear: both;
+    padding-top: 5px;
+    font-weight: 400;
+    color: #777;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 1530px) {
+    .footer__header {
+        font-size: 40px;
+    }
+    .discount {
+        top: 70px;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .footer__header {
+        padding-top: 0;
+        font-size: 32px;
+    }
+    .discount {
+        top: 63px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .discount {
+        top: 60px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .footer__header {
+        padding-top: 0;
+        font-size: 24px;
+    }
+    .disclamer_text {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .footer__header {
+        font-size: 50px;
+        margin-bottom: 0;
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__header {
+        font-size: 28px;
+        margin-bottom: -30px;
+    }
+}

@@ -1,0 +1,122 @@
+.press{
+	max-width: 1575px;
+	padding: 20px 30px 0 130px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.press__title{
+	color: #223848;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.press__title>p{margin:0}
+.press__box{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 16px 0 0;
+}
+.press__box-left{
+	flex: 1 0 820px;
+	margin: 0 55px 0 0;
+}
+.press__box-right{
+	flex: 1 0 465px;
+	padding: 10px 0 0;
+}
+.press__item{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	border-bottom: solid 1px #df0024;
+	padding: 0 0 15px;
+	margin: 0 0 46px;
+}
+.press__box-right .press__item{
+	display: block;
+	border: none;
+	margin: 0;
+}
+.press__box-right .press__item-img{
+	margin: 0;
+}
+.press__box-right .press__item-desc{
+	padding: 78px 0 0;
+	border: none;
+}
+.press__box-right .press__item-text{
+	padding: 12px 0 0;
+}
+.press__item-img{
+	margin: 0 55px 0 0;
+}
+.press__item-desc{
+	flex: 1 1;
+	padding: 0 0 0 60px;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	border-left: solid 1px #cecece;
+}
+.press__item-desc p{
+	margin: 0;
+
+
+	/* Text style for "«, Советск" */
+}
+.press__item-text{
+	flex: 1 0 100%;
+	padding: 22px 0 0 0;
+	font-size: 20px;
+	line-height: 26px;
+}
+.press__item:nth-last-of-type(1){
+	border-bottom: none;
+	margin: 0;
+}
+.press__img{
+	flex: 1 0 270px;
+}
+.press__img img{
+	width: 245px;
+}
+@media screen and (max-width: 1740px) {
+	.press {
+		padding: 0 34px 0 130px;
+	}
+	.press__box-left {
+		margin: 0;
+	}
+	.press__box {
+		display: block;
+	}
+	.press__box-right{
+		display: flex;
+		align-items: center;
+	}
+	.press__box-right .press__item-desc{
+		padding: 28px 0 0;
+		border: none;
+	}
+	.press__img{
+		padding: 0 0 0 25px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.press{
+		padding: 0 10px 0;
+	}
+	.press__img{
+		display: none;
+	}
+    .press__item {
+        display: block;
+        border: none;
+    }
+    .press__item-desc{
+        padding: 28px 0 0;
+        border: none;
+    }
+}

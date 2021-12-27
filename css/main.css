@@ -1,0 +1,330 @@
+.footer_copyright
+{
+    font-family: 'Houschka Pro';
+    font-weight: 100;
+    letter-spacing: 0.8px;
+    font-size: 30px;
+    color: #cccccc;
+    line-height: 36px;
+    text-transform:uppercase;
+    display:block;
+    margin:0 auto;
+    max-width:1600px;
+    text-align:center;
+}
+
+#video_play_container
+{
+    border: 7px solid #ee1c24;
+}
+
+#video_play_container #close_window
+{
+    position:absolute;
+    right:20px;
+    top:20px;
+    color: #ee1c24;
+    z-index:1000;
+    display:block;
+    cursor:pointer;
+}
+
+#box-tur
+{
+    padding:0 30px;
+}
+
+#box-tur h2
+{
+    text-align:center;
+    padding:0;
+}
+
+#box-tur .tour-wrapper
+{
+    padding:30px;
+    background:url('../img/icon/border-1.png') no-repeat left top, url('../img/icon/border-2.png') no-repeat right bottom;
+}
+
+#box-tur .tour-wrapper iframe
+{
+    width:100%;
+    height:450px;
+}
+
+#box-map .box-map__block-1
+{
+    z-index:-10;
+}
+
+@media (max-width:768px)
+{
+    .box-viewer__tur {
+        display: none;
+    }
+}
+
+#cooperation 
+{
+    max-width:1380px;
+    min-height:200px;
+    margin:50px auto 0 auto;
+}
+
+#cooperation #title_01
+{
+    color: #ec1b22;
+    font-size: 75px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align:center;        
+    margin-bottom: 43px;
+    line-height:75px;	
+    letter-spacing: 0.05em;
+}
+
+#cooperation #title_02
+{
+    color: #ec1b22;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.2;    
+    letter-spacing: 0.1em;
+    text-align:center;
+    margin-bottom:80px;
+}
+
+#cooperation #squares
+{
+    display:flex;
+    justify-content: space-between;	
+}
+
+#cooperation #squares .square_item
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:50px 65px;
+    border:8px solid #ec1b22;
+    background: #f5f7fb;
+}
+
+#cooperation #squares .square_item .square_type
+{
+    font-size:23px;
+    font-weight:700;
+    color:#233848;
+    text-transform:uppercase;
+    padding-bottom:10px;
+    border-bottom:1px solid #ec1b22;
+    margin-bottom:20px;
+}
+
+#cooperation #squares .square_item .square_price
+{
+    font-size:60px;
+    color:#dbdde2;
+    font-weight:700;
+    text-transform:uppercase;
+    text-align:center;
+    line-height:70px;
+    margin-bottom:55px;		
+}
+
+#cooperation #squares .square_item .square_button
+{
+    width:250px;
+    height:62px;
+    border-radius: 50px;
+    background: white;
+    font-weight:700;
+    color:#ee1c24;
+    cursor:pointer;
+    text-transform:uppercase;
+    transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+    display:flex;
+}
+
+#cooperation #squares .square_item .square_button span
+{
+    margin:auto;
+}
+
+#cooperation #squares .square_item .square_button:hover
+{
+    color:white;
+    background:#ee1c24;
+}
+
+@media (max-width: 1350px)
+{
+    #cooperation #squares .square_item
+    {
+	padding:50px 50px;
+    }
+}
+
+@media (max-width: 1280px)
+{
+    #cooperation #squares
+    {
+	justify-content: space-around;	
+    }
+
+    #cooperation #squares .square_item
+    {
+	padding:50px 40px;
+    }
+
+    #cooperation #squares .square_item .square_price
+    {
+	font-size:45px;
+	line-height:60px;
+    }
+}
+
+@media (max-width: 990px)
+{
+    #cooperation #squares .square_item .square_price
+    {
+	font-size:40px;
+	line-height:50px;
+    }
+}
+
+@media (max-width: 900px)
+{
+    #cooperation #title_01
+    {
+	font-size: 70px;
+	line-height:70px;	
+    }
+
+    #cooperation #squares .square_item
+    {
+	padding:50px 30px;
+    }
+
+    #cooperation #squares .square_item .square_price
+    {
+	font-size:30px;
+	line-height:40px;
+	margin-bottom:35px;
+    }
+}
+
+@media (max-width: 700px)
+{
+    #cooperation
+    {
+	margin-top:120px;
+    }
+
+    #cooperation #squares
+    {
+	display:flex;
+	flex-direction:column;
+	margin: 50px auto 80px auto;
+    }
+
+    #cooperation #squares .square_item:nth-child(1)
+    {
+	margin-bottom:20px;
+    }
+
+    #cooperation #title_01
+    {
+	font-size: 40px;
+	line-height:40px;	
+    }
+
+    #cooperation #title_02
+    {
+	font-size: 19px;
+	margin-bottom:40px;
+    }
+}
+
+@media (max-width: 480px){
+    .footer_copyright
+    {
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 360px)
+{
+    #cooperation #squares .square_item .square_type
+    {
+	font-size:20px;
+    }
+
+    #cooperation #squares .square_item .square_price
+    {
+	font-size:27px;
+    }
+
+    #cooperation #squares .square_item .square_button 
+    {
+	padding: 20px 35px;		
+    }
+
+}
+
+
+#map
+{
+    position:relative;
+    width:100%;
+}
+
+#map img
+{
+    min-width:100%;
+}
+
+
+form#form_message p#status
+{
+    margin-top:0;
+    display:none;
+}
+
+form#form_message p#status.error
+{
+    color: #ec1c22;
+}
+
+form#form_message p#status.ok
+{
+    color:green;
+}
+
+
+
+#rules
+{
+    height: 100%;
+    max-width:1000px;
+    padding:20px;
+    border: 7px solid #ee1c24;
+}    
+
+#rules #rules_text
+{
+    max-height:600px;
+}
+
+#rules #close_window
+{
+    position:absolute;
+    right: 60px;
+    top: 25px;
+    color: #ee1c24;
+    z-index:1000;
+    display:block;
+    cursor:pointer;
+}

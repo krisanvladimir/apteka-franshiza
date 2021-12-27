@@ -1,0 +1,134 @@
+.mfp-bg {
+    background: #fff;
+    opacity: 0.95
+}
+
+.mfp-close {
+    right: -60px;
+    top: -60px;
+    cursor: pointer;
+    z-index: 100
+}
+
+.mfp-close::before,.mfp-close::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: #ec1c22;
+    top: 22px
+}
+
+.mfp-close::before {
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: -3px
+}
+
+.mfp-close::after {
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    right: -3px
+}
+
+.mfp-close:active {
+    top: -60px
+}
+
+.modal__form {
+    max-width: 660px;
+    background-color: transparent;
+    padding: 50px 90px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    border: 6px solid #ec1c22
+}
+
+.modal__form .footer__btn-wrap button {
+    margin: 0;
+    border: 1px solid #ec1c22;
+    height: 80px;
+    width: 230px
+}
+
+.modal__form .footer__form-group {
+    max-width: 443px;
+    margin-bottom: 40px
+}
+
+.modal__form .footer__form-group:nth-child(5) {
+    margin-bottom: 15px
+}
+
+.modal__form .footer__form-group input {
+    width: 100%
+}
+
+.modal__form .footer__btn-wrap {
+    text-align: left;
+    margin-top: 0
+}
+
+.modal__form form#form_message p#status.ok {
+    font-size: 26px;
+    margin: 0;
+    font-weight: bold
+}
+
+.modal__title {
+    color: #ec1c22;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px
+}
+
+.modal__agree {
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 15px
+}
+
+@media (max-width: 767px) {
+    .mfp-close {
+        right:11px;
+        top: 11px
+    }
+
+    .mfp-close:active {
+        top: 11px
+    }
+
+    .press__img {
+        display: none
+    }
+}
+
+@media (max-width: 520px) {
+    .mfp-close {
+        right:8px;
+        top: 8px
+    }
+
+    .mfp-close::before,.mfp-close::after {
+        width: 30px
+    }
+
+    .mfp-close::before {
+        left: 8px
+    }
+
+    .mfp-close::after {
+        right: 6px
+    }
+
+    .modal__form {
+        padding: 40px 30px
+    }
+
+    .modal__title {
+        font-size: 28px
+    }
+}

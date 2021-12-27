@@ -1,0 +1,159 @@
+.b-winner {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    max-width: 1575px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 30px 5em 130px;
+    overflow: hidden;
+}
+
+.b-winner__image {
+    position: absolute;
+    top: 0;
+    right: -4.5em;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
+
+.b-winner__image-img {
+    width: auto;
+    height: 100%;
+}
+
+.b-winner__title {
+    position: relative;
+    z-index: 2;
+    width: 70%;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 1;
+}
+
+.b-winner__title .red {
+    color: #ee1c24;
+}
+
+.b-winner__award {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+    font-size: 23px;
+}
+
+.b-winner__award-text {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ee1c24;
+}
+
+.b-winner__award-image {
+    width: 7em;
+    margin-left: 1em;
+}
+
+.b-winner__award-img {
+    width: 100%;
+    height: auto;
+}
+
+.b-winner__br {
+    display: block;
+}
+
+@media screen and (max-width: 1550px){
+    .b-winner__title {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .b-winner__title {
+        font-size: 54px;
+        line-height: 1.2;
+    }
+
+    .b-winner__award {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1140px){
+    .b-winner__title {
+        font-size: 40px;
+    }
+
+    .b-winner__award {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .b-winner {
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .b-winner {
+        padding-left: 50px;
+    }
+
+    .b-winner__title {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .b-winner__award {
+        font-size: 15px;
+    }
+
+    .b-winner__br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .b-winner {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .b-winner {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .b-winner__image {
+        position: static;
+        width: 100%;
+        margin-top: 2em;
+        overflow: hidden;
+    }
+
+    .b-winner__image-img {
+        width: 120%;
+        height: auto;
+        max-width: none;
+        margin-left: -20%;
+    }
+
+    .b-winner__title {
+        font-size: 24px;
+    }
+
+    .b-winner__award {
+        font-size: 13px;
+    }
+}
